@@ -1,4 +1,4 @@
-FROM paketobuildpacks/build-jammy-tiny
+FROM paketobuildpacks/build-jammy
 
 USER root
 RUN apt-get update && \
