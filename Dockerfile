@@ -1,4 +1,4 @@
-FROM paketobuildpacks/build-jammy-base
+FROM paketobuildpacks/run-jammy-base
 
 USER root
 RUN apt-get update && \
